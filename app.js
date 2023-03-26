@@ -28,3 +28,5 @@ app.get("/",(req,res)=>{
 app.get("/quotes",(req,res)=>{
     res.send(`quotes ${quotes[getRandomIndex()].quote}`)}
 )
+
+console.log ("Hello World")
